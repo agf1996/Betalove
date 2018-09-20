@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size 100%;
+    background-image: url(fotos/images.jpeg);
+ 
+                    }   
+
+@font-face  {
+    
+        font-family: TipoTiTulos
+        src: url('BebasNeueRegular.otf');
+}
+
+    
+h1 {
+
+    font-family: fantasy;
+    font-size: 2em;
+    font-style: oblique;
+    font-weight: bold; 
+    font-variant:inherit;
+    text-transform:capitalize;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: rgb(100%, 50%, 0%) 2px 2px 2px;}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 2em;
+    font-style: italic;
+    font-weight:100;
+    text-align: center;
+    text-shadow: rgb(60%,30%,10%) 2px 2px 2px;
+    }
+
+
+li {
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: 2em; }
+
+a: link {color: black;}
+a: visited{color:darkviolet;}
+p {
+    font-weight: bold;
+    font-size: 20px;}
+p.destacat {
+    text-decoration: underline;
+    font-weight: bolder;
+    font-style: italic;
+    
+    }
+p.nom {
+    text-decoration-line: overline;
+    font-family: cursive;
+    font-style: normal;
+    background-color: greenyellow;
+    text-align: center;
+}
+img {
+    margin:10px auto;
+    display: block;
+}
+ul{
+    text-align: center;
+}
+.nav {
+    list-style-type: none;
+    display: inline;
+    padding-right: 5px;
+    font-size: 25px;
+}
+
+li a{
+    text-align: left;
+    background-color: chartreuse;
+}
